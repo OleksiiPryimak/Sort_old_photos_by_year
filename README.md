@@ -1,42 +1,72 @@
-<h1>Sort old photos and other files by year</h1>
+# README.md
 
-<h2> --> ANALYZE_extensions.py <-- </h2>
-<p>This Python script analyzes the file extensions within a specified directory and generates a report detailing the count of each unique file extension.</p>
+# Sort Old Photos by Year
 
-<h3>Usage:</h3>
+This project provides a graphical user interface (GUI) application to sort old photos and files by year and analyze file extensions within a specified directory. The application is built using Python's `tkinter` library along with `ttkbootstrap` for enhanced styling.
 
-<p> - Replace the placeholder r"C:\...\PHOTO" with the actual path to the directory you want to analyze.</p>
-<p> - Run the script.</p>
-<p> - A text file named "extension_counts.txt" will be created in the same directory as the script.</p>
-<p> - The file will contain a list of file extensions and their corresponding counts.</p>
+## Features
 
-<h2>Example Output:</h2>
-<p>.jpg: 1000 files</p>
-<p>.png: 500 files</p>
-<p>.pdf: 200 files</p>
-<p>.docx: 100 files</p>
-<p>...</p>
+- **Sort Files by Year**: Organizes images and files based on their creation or modification dates.
+- **Organize All Files**: Moves all files into a `Not Organized` folder, processes them, and sorts them into an `Organized Files` folder with subfolders for images, videos, documents, and other files.
+- **Analyze File Extensions**: Counts and reports the number of files for each unique extension in a specified directory.
+- **User-Friendly GUI**: The application features a clean and intuitive interface with tabs for different functionalities.
 
-<h2> --> Sorting_ALL_files_by_year.py <-- </h2>
-<p>This Python script sorts images and files based on their file extensions and creation/modification dates. It organizes files into separate directories based on their type and year of creation or modification.</p>
+## Project Structure
 
-<h3>Usage:</h3>
+```
+Sort_old_photos_by_year  
+├── src  
+│   ├── FUNCTIONS  
+│   │   ├── ANALYZE_extensions.py  
+│   │   └── Sorting_ALL_files_by_year.py  
+├── GUI  
+│   └── gui.py     
+├── LICENSE  
+├── README.md  
+└── requirements.txt  
+```
 
-<p> - Replace the placeholder paths with your actual source and destination directories.</p>
-<p> - Adjust the file extensions lists if necessary.</p>
-<p> - Run the script.</p>
- 
-<h3>Output:</h3>
+## Installation
 
-<p>The script will create separate directories for images, videos, documents, and other files within the specified destination directory.</p>
-<p>Files will be organized within these directories based on their year of creation or modification.</p>
-<p>Files with errors during EXIF extraction or movement will be placed in the error directory.</p>
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd Sort_old_photos_by_year
+   ```
 
-![image](https://github.com/user-attachments/assets/ab92b255-e637-4860-876a-f46df980152f) ----->    ![image](https://github.com/user-attachments/assets/974a4ccc-0c3b-4b57-8943-7f2108f57b76)
+2. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
+## Usage
 
+1. Run the application:
+   ```
+   python src/main.py
+   ```
 
+2. **Organizing All Files**:
+   - Navigate to the first tab.
+   - Enter the directory path containing the files you want to organize.
+   - Click the "Organize All Files" button.
+   - The application will:
+     - Move all files (excluding the `Organized Files` folder) into a `Not Organized` folder.
+     - Sort images, videos, documents, and other files into subfolders within the `Organized Files` folder.
 
+3. **Sorting Files by Year**:
+   - Navigate to the first tab.
+   - Enter the directory path containing the files you want to sort.
+   - Click the button to start the sorting process. A progress bar will indicate the progress.
 
+4. **Analyzing File Extensions**:
+   - Navigate to the second tab.
+   - Enter the directory path you want to analyze.
+   - Click the button to start the analysis. A progress bar will indicate the progress.
 
+5. **How to Use**:
+   - The third tab provides instructions on how to use the application effectively.
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
