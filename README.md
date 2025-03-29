@@ -5,14 +5,13 @@
 This project provides a graphical user interface (GUI) application to sort old photos and files by year and analyze file extensions within a specified directory. The application is built using Python's `tkinter` library along with `ttkbootstrap` for enhanced styling.
 
 ## GUI
-Dark / light mode
-![1](https://github.com/user-attachments/assets/2bbb0aed-0253-4b6e-8dc9-b049cb3cb4a2)
-![2](https://github.com/user-attachments/assets/1eba4f99-131b-4c21-b004-3f9df7729a7c)
-Tabs
-![4](https://github.com/user-attachments/assets/2bd833b0-5650-47bf-8dd9-db071ebc08d2)
-![3](https://github.com/user-attachments/assets/725e1cf3-e551-4726-9c57-749e5e34563f)
-Also you can save txt file with extensions
-![5](https://github.com/user-attachments/assets/56cc70b1-6de9-431f-bed5-c73527415a9a)
+<img src="https://github.com/user-attachments/assets/2bbb0aed-0253-4b6e-8dc9-b049cb3cb4a2" height="250">
+<img src="https://github.com/user-attachments/assets/1eba4f99-131b-4c21-b004-3f9df7729a7c" height="250">
+<img src="https://github.com/user-attachments/assets/2bd833b0-5650-47bf-8dd9-db071ebc08d2" height="250">
+<img src="https://github.com/user-attachments/assets/725e1cf3-e551-4726-9c57-749e5e34563f" height="250">
+
+## Also you can save txt file with extensions
+<img src="https://github.com/user-attachments/assets/56cc70b1-6de9-431f-bed5-c73527415a9a" height="250">
 
 ## Features
 
