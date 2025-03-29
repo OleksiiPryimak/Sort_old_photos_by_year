@@ -14,7 +14,6 @@ This project provides a graphical user interface (GUI) application to sort old p
 ## Features
 
 - **Sort Files by Year**: Organizes images and files based on their creation or modification dates.
-- **Organize All Files**: Moves all files into a `Not Organized` folder, processes them, and sorts them into an `Organized Files` folder with subfolders for images, videos, documents, and other files.
 - **Analyze File Extensions**: Counts and reports the number of files for each unique extension in a specified directory.
 - **User-Friendly GUI**: The application features a clean and intuitive interface with tabs for different functionalities.
 
@@ -57,19 +56,16 @@ Sort_old_photos_by_year
    - Navigate to the first tab.
    - Enter the directory path containing the files you want to organize.
    - Click the "Organize All Files" button.
+   - Click the button to start the sorting process. A progress bar will indicate the progress.
    - The application will sort images, videos, documents, and other files into subfolders within the `Organized Files` folder.
 
-3. **Sorting Files by Year**:
-   - Navigate to the first tab.
-   - Enter the directory path containing the files you want to sort.
-   - Click the button to start the sorting process. A progress bar will indicate the progress.
 
-4. **Analyzing File Extensions**:
+3. **Analyzing File Extensions**:
    - Navigate to the second tab.
    - Enter the directory path you want to analyze.
    - Click the button to start the analysis. A progress bar will indicate the progress.
 
-5. **How to Use**:
+4. **How to Use**:
    - The third tab provides instructions on how to use the application effectively.
 
 ## License
