@@ -7,8 +7,6 @@ This project provides a graphical user interface (GUI) application to sort old p
 ## GUI
 <img src="https://github.com/user-attachments/assets/2bbb0aed-0253-4b6e-8dc9-b049cb3cb4a2" height="250">
 <img src="https://github.com/user-attachments/assets/1eba4f99-131b-4c21-b004-3f9df7729a7c" height="250">
-<img src="https://github.com/user-attachments/assets/2bd833b0-5650-47bf-8dd9-db071ebc08d2" height="250">
-<img src="https://github.com/user-attachments/assets/725e1cf3-e551-4726-9c57-749e5e34563f" height="250">
 
 ## Also you can save txt file with extensions
 <img src="https://github.com/user-attachments/assets/56cc70b1-6de9-431f-bed5-c73527415a9a" height="250">
@@ -59,9 +57,7 @@ Sort_old_photos_by_year
    - Navigate to the first tab.
    - Enter the directory path containing the files you want to organize.
    - Click the "Organize All Files" button.
-   - The application will:
-     - Move all files (excluding the `Organized Files` folder) into a `Not Organized` folder.
-     - Sort images, videos, documents, and other files into subfolders within the `Organized Files` folder.
+   - The application will sort images, videos, documents, and other files into subfolders within the `Organized Files` folder.
 
 3. **Sorting Files by Year**:
    - Navigate to the first tab.
