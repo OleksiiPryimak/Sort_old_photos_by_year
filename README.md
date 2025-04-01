@@ -1,15 +1,25 @@
 # README.md
 
-# Sort Old Photos by Year
+## Problem Statement
+
+Managing and organizing a large collection of photos and files can be a daunting task, especially when they are scattered across multiple directories with inconsistent naming conventions. Over time, this can lead to cluttered storage, making it difficult to locate specific files or analyze their contents. This project addresses the challenge of efficiently sorting files by year, organizing them into meaningful categories, and analyzing file extensions to better understand the composition of a directory.
 
 This project provides a graphical user interface (GUI) application to sort old photos and files by year and analyze file extensions within a specified directory. The application is built using Python's `tkinter` library along with `ttkbootstrap` for enhanced styling.
 
-## GUI
+## GUI (Black & White mode)
 <img src="https://github.com/user-attachments/assets/2bbb0aed-0253-4b6e-8dc9-b049cb3cb4a2" height="250">
 <img src="https://github.com/user-attachments/assets/1eba4f99-131b-4c21-b004-3f9df7729a7c" height="250">
 
-## Also you can save txt file with extensions
+## Three tabs
+
+<img src="https://github.com/user-attachments/assets/9bdac309-57b0-43f5-86ce-b1f57e5ebe13" height="150">
+
+## Analyze Extension tab, example of the txt file with file extensions, and How to Use tab
+
+<img src="https://github.com/user-attachments/assets/f10260f4-60b1-495e-92d5-c887c53c04dd" height="250">
 <img src="https://github.com/user-attachments/assets/56cc70b1-6de9-431f-bed5-c73527415a9a" height="250">
+<img src="https://github.com/user-attachments/assets/a02d5523-39e3-4c8f-a488-551b1ed610ed" height="250">
+
 
 ## Features
 
